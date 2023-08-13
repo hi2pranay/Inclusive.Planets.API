@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inclusive.Planets.API", "Inclusive.Planets.API\Inclusive.Planets.API.csproj", "{5BAA2485-6897-43A3-B05E-C1946185695B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inclusive.Planets.API", "Inclusive.Planets.API\Inclusive.Planets.API.csproj", "{5BAA2485-6897-43A3-B05E-C1946185695B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inclusive.Planets.Core", "Inclusive.Planets.Core\Inclusive.Planets.Core.csproj", "{83BA20D3-FC69-4813-BC23-C0C5B89C5211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inclusive.Planets.Core", "Inclusive.Planets.Core\Inclusive.Planets.Core.csproj", "{83BA20D3-FC69-4813-BC23-C0C5B89C5211}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inclusive.Planets.Infrastructure", "Inclusive.Planets.Infrastructure\Inclusive.Planets.Infrastructure.csproj", "{544F0D6C-0BD4-4FE3-A35E-F0CB311C50D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inclusive.Planets.Infrastructure", "Inclusive.Planets.Infrastructure\Inclusive.Planets.Infrastructure.csproj", "{544F0D6C-0BD4-4FE3-A35E-F0CB311C50D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inclusive.Planets.Tests", "Inclusive.Planets.Tests\Inclusive.Planets.Tests.csproj", "{2F2D1EFC-3F5A-490B-93C9-BBCAB3F62D65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{544F0D6C-0BD4-4FE3-A35E-F0CB311C50D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{544F0D6C-0BD4-4FE3-A35E-F0CB311C50D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{544F0D6C-0BD4-4FE3-A35E-F0CB311C50D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2D1EFC-3F5A-490B-93C9-BBCAB3F62D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2D1EFC-3F5A-490B-93C9-BBCAB3F62D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2D1EFC-3F5A-490B-93C9-BBCAB3F62D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2D1EFC-3F5A-490B-93C9-BBCAB3F62D65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

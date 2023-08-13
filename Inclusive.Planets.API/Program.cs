@@ -9,7 +9,7 @@ IConfiguration configuration = builder.Configuration;
 // Add services to the container.
 
 // Allowing CORS for all domains and methods
-string[] origins = new string[] { "http://localhost:3000" };
+string[] origins = new string[] { "http://localhost:3000" , "https://planets-react-app.azurewebsites.net" };
 services.AddCors(o => o.AddPolicy("default", builder =>
 {
     builder.WithOrigins(origins).AllowAnyMethod().AllowAnyHeader().WithExposedHeaders("WWW-Authenticate");
@@ -29,12 +29,12 @@ services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 // Enable Cors
 app.UseCors("default");
